@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/details.js"></script>
+<div class="main">
+    <h1> Details:</h1>
+    <table class="table">
+        <tr>
+            <td>Id</td>
+            <td id="id"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td id="name"></td>
+        </tr>
+        <tr>
+            <td>Author</td>
+            <td id="author"></td>
+        </tr>
+        <tr>
+            <td>Track count</td>
+            <td id="track-count"></td>
+        </tr>
+    </table>
+    <button class="btn btn-outline-primary" onclick="location.href = '/RESTClient/index.html'">Back to index</button>
+    <button class="btn btn-danger" onclick="removeAlbum()">Remove</button>
+</div>
+</body>
+</html>

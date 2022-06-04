@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/edit.js"></script>
+
+<form id="a-form" class="main album-form">
+  <div class="form-group">
+    <label for="Name">Album name</label>
+    <input name="Name" type="text" class="form-control" id="Name" aria-describedby="album-name" placeholder="Enter album name" required>
+  </div>
+  <div class="form-group">
+    <label for="Author">Author</label>
+    <input name="Author" type="text" class="form-control" id="Author" aria-describedby="Author" placeholder="Enter album author" required>
+  </div>
+  <div class="form-group">
+    <label for="TrackCount">Track count</label>
+    <input type="number" name="TrackCount" class="form-control" id="TrackCount" aria-describedby="TrackCount" placeholder="Enter track count" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</body>
+</html>
